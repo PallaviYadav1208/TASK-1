@@ -6,14 +6,14 @@ The dataset contains observations about income (in a range of $15k to $75k) and 
 # Getting started in R
 Start by downloading R and RStudio. Then open RStudio and click on File > New File > R Script.
 # Importing all libraries required in this notebook
-import pandas as pd
-import numpy as np  
-import matplotlib.pyplot as plt  
-%matplotlib inline
+>import pandas as pd<br>
+import numpy as np <br> 
+import matplotlib.pyplot as plt <br> 
+%matplotlib inline<br>
 # Reading data from remote link
-url = "http://bit.ly/w-data"
-s_data = pd.read_csv(url)
-print("Data imported successfully")
+>url = "http://bit.ly/w-data"<br>
+s_data = pd.read_csv(url)<br>
+print("Data imported successfully")<br>
 
 s_data.head(10)
 Data imported successfully
