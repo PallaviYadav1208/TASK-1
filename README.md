@@ -14,6 +14,17 @@ import matplotlib.pyplot as plt <br>
 >url = "http://bit.ly/w-data"<br>
 s_data = pd.read_csv(url)<br>
 print("Data imported successfully")<br>
+s_data.head(10)<br>
 
-s_data.head(10)
 Data imported successfully
+Hours	Scores
+0	2.5	21
+1	5.1	47
+2	3.2	27
+3	8.5	75
+4	3.5	30
+5	1.5	20
+6	9.2	88
+7	5.5	60
+8	8.3	81
+9	2.7	25
