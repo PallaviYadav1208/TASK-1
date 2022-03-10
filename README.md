@@ -5,3 +5,15 @@ Linear regression is a regression model that uses a straight line to describe th
 The dataset contains observations about income (in a range of $15k to $75k) and happiness (rated on a scale of 1 to 10) in an imaginary sample of 500 people. The income values are divided by 10,000 to make the income data match the scale of the happiness scores (so a value of $2 represents $20,000, $3 is $30,000, etc.)
 # Getting started in R
 Start by downloading R and RStudio. Then open RStudio and click on File > New File > R Script.
+# Importing all libraries required in this notebook
+import pandas as pd
+import numpy as np  
+import matplotlib.pyplot as plt  
+%matplotlib inline
+# Reading data from remote link
+url = "http://bit.ly/w-data"
+s_data = pd.read_csv(url)
+print("Data imported successfully")
+
+s_data.head(10)
+Data imported successfully
